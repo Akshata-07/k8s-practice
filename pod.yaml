@@ -5,7 +5,7 @@ kind: Pod
 metadata:
   name: my-pod
   labels: 
-    app: my-app
+    app: cbz-app
   namespace: test
 spec:
   containers:
@@ -29,7 +29,7 @@ metadata:
   namespace: test
 spec:
   selector: 
-    app: my-app
+    app: cbz-app
   ports:
     - protocol: TCP
       port: 80
