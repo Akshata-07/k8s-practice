@@ -29,7 +29,7 @@ metadata:
    namespace: test
 spec:
   selector: 
-    app: class-app
+    app: my-app
   ports:
     - protocol: TCP
       port: 80
