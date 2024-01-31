@@ -35,4 +35,5 @@ spec:
       protocol: TCP
   selector:
     app: my-app
+  type: NodePort
 ...
