@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: laptop-container
-          image: akshataa07/laptop:v1
+          image: akshataa07/laptop:v2
           ports:
             - containerPort: 80
   replicas: 3
